@@ -13,7 +13,7 @@ int main(int argc, char *argv[]) {
 		sides = atoi(argv[1]);
 	}
 
-    srand(time(0));
+    	srand(time(0));
 	n = (rand() % sides + 1);
 	printf("%d\n", n);
 
